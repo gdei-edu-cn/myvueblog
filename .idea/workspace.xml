@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="829e2748-f9c8-4618-8988-18d555170dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.env.staging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/README-zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/againDiagnose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/allPatient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/ecgForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/isAcceptsubscribe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/mock-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/subscribe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/mock/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/images/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/images/ecg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/images/small-ecg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/images/医生.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/againDiagnose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/deletePatient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/ecg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/findPeople.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/myHomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/myNewApi/subscribe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/ECG/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/SubscribePage/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/diagnosePage/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/images/ecg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/images/small-ecg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/patientDiagnosePage/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/patientPage/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/components/secondDiagnose/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/images/医生.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/utils/get-page-title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/accountSet/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/againDiagnose/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/dashboard/echarts/echarts1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/dashboard/echarts/echarts2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/dashboard/echarts/echarts3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/diagnose/myInquiry/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/diagnose/startDiagnose/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/dialogModel/echarts/echarts2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/dialogModel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/findPeople/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/help/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/myInformation/myHomePage/images/医生.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/myInformation/myHomePage/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/src/views/myInformation/mySubscribe/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/tests/unit/utils/validate.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoctorSystem/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doctorSystem前端文档.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-website" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-website.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myvueblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liangweitang/MyvueblogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liangweitang/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/liangweitang/MyvueblogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence - 副本" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/community.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/footer.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/my.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/css/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/img/loadingImg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/my.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../no-violence静态页面/two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/taobao2.0.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/taobao2.2.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/taobao3.0.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table-export.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table-fixed-columns.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table-mobile.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table-toolbar.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table-zh-CN.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-table.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap-treetable.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/bootstrap.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/common.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/icheck.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/jquery.blockUI.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/jquery.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/jquery.validate.extend.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/jquery.validate.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/layer.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/layui.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/messages_zh.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/qrcodeqj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/ry-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/ry-ui.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/style(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/我的请假凭证_files/tableExport.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/ry-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/style(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/images/qrcodeqj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taobaoyuanma/官方源代码/新建文件夹/主页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueblog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueblog报错解决.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueblog笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../心速查资源/184b8522697676ba4ef1c9d1d062f3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../心速查资源/ecg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../心速查资源/request.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../心速查资源/request2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../心速查资源/request3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../心速查资源/small-ecg.jpg" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liangweitang/config/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liangweitang/MyvueblogApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liangweitang/config/MybatisPlusConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_12.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="423" />
+    <option name="width" value="1791" />
+    <option name="height" value="666" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liangweitang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liangweitang" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myvueblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myvueblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyvueblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myvueblog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liangweitang.MyvueblogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="829e2748-f9c8-4618-8988-18d555170dae" name="Default Changelist" comment="" />
+      <created>1636293543069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636293543069</updated>
+      <workItem from="1636293547865" duration="57000" />
+      <workItem from="1636293625881" duration="1050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1107000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20603015" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32957393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="myvueblog项目构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="myvueblog项目构建" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liangweitang/MyvueblogApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liangweitang/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
